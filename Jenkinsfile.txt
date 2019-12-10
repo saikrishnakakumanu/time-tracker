@@ -1,5 +1,7 @@
 pipeline{
-		agent none
+		agent {
+			C:\DevTools\apache-maven-3.6.1
+		}
 		stages{
 			stage('clean'){
 			  steps{
