@@ -8,8 +8,6 @@ pipeline{
 				  }
 				
 				}
-			stage('deploy'){
-					bat "mvn clean deploy"
-					}
+			
 }
 }
